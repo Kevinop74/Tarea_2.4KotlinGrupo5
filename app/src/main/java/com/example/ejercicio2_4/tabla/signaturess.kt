@@ -1,9 +1,8 @@
 package com.example.ejercicio2_4.tabla
 
-class signaturess {
-    @kotlin.jvm.JvmField
+class Signatures {
     var id: Int? = null
-    var image: ByteArray
+    var image: ByteArray = ByteArray(0) // Inicialización con un array vacío
     var descripcion: String? = null
 
     constructor()
@@ -12,5 +11,4 @@ class signaturess {
         this.id = id
         this.image = image
         this.descripcion = descripcion
-    }
-}
+    }}
